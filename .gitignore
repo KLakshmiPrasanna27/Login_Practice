@@ -1,0 +1,39 @@
+# =========================
+# Node.js Backend
+# =========================
+node_modules/
+.env
+.env.*
+!.env.example
+npm-debug.log*
+
+# =========================
+# Flutter Frontend
+# =========================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Android
+**/android/local.properties
+**/android/key.properties
+*.jks
+*.keystore
+
+# =========================
+# VS Code and IDE
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# Operating System
+# =========================
+.DS_Store
+Thumbs.db
+.metadata
